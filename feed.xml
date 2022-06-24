@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://group-project-6905.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://group-project-6905.github.io/" rel="alternate" type="text/html" /><updated>2022-06-24T00:12:47+08:00</updated><id>https://group-project-6905.github.io/feed.xml</id><title type="html">Youth STEM</title><subtitle>An amazing website.</subtitle><author><name>Allison Lau, Esther Cheung and Henry Yip</name><email>group-project-6905@gmail.com</email></author><entry><title type="html">Sample Post (Please Check!)</title><link href="https://group-project-6905.github.io/Katex/" rel="alternate" type="text/html" title="Sample Post (Please Check!)" /><published>2022-05-19T00:00:00+08:00</published><updated>2022-05-19T00:00:00+08:00</updated><id>https://group-project-6905.github.io/Katex</id><content type="html" xml:base="https://group-project-6905.github.io/Katex/"><![CDATA[<p>Note: This is just a placeholder to showcase how the post will look like. I’ll delete these after some time.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://group-project-6905.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://group-project-6905.github.io/" rel="alternate" type="text/html" /><updated>2022-06-24T15:43:40+08:00</updated><id>https://group-project-6905.github.io/feed.xml</id><title type="html">Youth STEM</title><subtitle>An amazing website.</subtitle><author><name>Allison Lau, Esther Cheung and Henry Yip</name><email>group-project-6905@gmail.com</email></author><entry><title type="html">Sample Post (Please Check!)</title><link href="https://group-project-6905.github.io/Katex/" rel="alternate" type="text/html" title="Sample Post (Please Check!)" /><published>2022-05-19T00:00:00+08:00</published><updated>2022-05-19T00:00:00+08:00</updated><id>https://group-project-6905.github.io/Katex</id><content type="html" xml:base="https://group-project-6905.github.io/Katex/"><![CDATA[<p>Note: This is just a placeholder to showcase how the post will look like. I’ll delete these after some time.</p>
 
 <h2 id="how-to-include-math-symbols-in-jekyll">How to include Math Symbols in Jekyll</h2>
 <p>Note that in this website, we use \(\KaTeX\) instead of \(\LaTeX\).</p>
@@ -65,38 +65,6 @@ end
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>include head.html 
 </code></pre></div></div>
-<p>Which is included in <strong>post-Henry.html</strong> as it contains <strong>default.html</strong>. We have stated in the front matter:</p>
+<p>Which is included in <strong>post-Henry.html</strong> as it contains <strong>default.html</strong>.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source</span> <span class="s2">"https://rubygems.org"</span>
-
-
-gem <span class="s2">"minimal-mistakes-jekyll"</span>
-
-group :jekyll_plugins <span class="k">do
-  
-  </span>gem <span class="s2">"jekyll-seo-tag"</span>
-  gem <span class="s1">'kramdown-parser-gfm'</span>
-  gem <span class="s2">"sprockets"</span>, <span class="s2">"~&gt; 3.7"</span> 
-  gem <span class="s1">'jekyll-remote-theme'</span>
-  gem <span class="s1">'wdm'</span>, <span class="s1">'&gt;= 0.1.0'</span> <span class="k">if </span>Gem.win_platform?
-  gem <span class="s1">'jekyll-algolia'</span>
-  gem <span class="s1">'jekyll'</span>, <span class="s1">'~&gt; 4.2.2'</span>
-  gem <span class="s1">'jekyll-feed'</span>
-  gem <span class="s2">"jekyll-data"</span>
-  
-
-gem <span class="s1">'duktape'</span>
-gem <span class="s1">'katex'</span>
-gem <span class="s1">'execjs'</span>
-gem <span class="s1">'kramdown-math-katex'</span> 
-gem <span class="s2">"jekyll-paginate"</span>
-gem <span class="s2">"jekyll-gist"</span>
-gem <span class="s2">"jemoji"</span>
-gem <span class="s2">"jekyll-archives"</span>
-gem <span class="s2">"webrick"</span>
-gem <span class="s1">'jekyll-sitemap'</span>
-gem <span class="s2">"jekyll-include-cache"</span>
-
-end
-</code></pre></div></div>
 <p>And therefore \(\KaTeX\) is included in this page!</p>]]></content><author><name>Allison Lau, Esther Cheung and Henry Yip</name><email>group-project-6905@gmail.com</email></author><summary type="html"><![CDATA[Note: This is just a placeholder to showcase how the post will look like. I’ll delete these after some time.]]></summary></entry></feed>
